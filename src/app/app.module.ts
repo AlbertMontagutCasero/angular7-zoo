@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 // Componentes
 import { AppComponent } from './app.component';
 import { TiendaComponent} from './components/tienda/tienda.component';
+import {ParquesComponent} from './components/parques/parques.component';
 
 @NgModule({
   declarations: [ // Componentes, Directivas y pipes que se usaran en este modulo
     AppComponent,
-    TiendaComponent
+    TiendaComponent,
+    ParquesComponent
   ],
   imports: [ // modulos y componentes internos de angular
     BrowserModule,
